@@ -1,6 +1,6 @@
 # Adapter retention under quantization
 
-Code and data for *Weight-Space Erasure Without Behavioural Collapse in Quantized LoRA Adapters*, by Maxim Gerasimov. Manuscript dated November 2, 2026.
+Code and data for *Weight-Space Erasure Without Behavioural Collapse in Quantized LoRA Adapters*
 
 This study asks how much of a LoRA fine-tune survives when its weights are merged into a base model and quantized. The weight update changes substantially, but that alone does not tell us how the model's behaviour will change.
 
