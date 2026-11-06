@@ -1,0 +1,58 @@
+{
+  "python": "3.11.15",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.11.0+cu128",
+  "torch_cuda": "12.8",
+  "cudnn": 91900,
+  "cuda_available": true,
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.14.1",
+    "peft": "0.20.0",
+    "trl": "1.9.2",
+    "datasets": "5.0.1",
+    "accelerate": "1.14.0",
+    "numpy": "2.4.6",
+    "pydantic": "2.13.4",
+    "safetensors": "0.8.0",
+    "huggingface-hub": "1.25.1"
+  },
+  "git_sha": "0c7ab2dcb2413befabc36dadeec9525b4a7a43e3",
+  "git_dirty": true,
+  "seeds": {},
+  "device": {
+    "index": 0,
+    "name": "NVIDIA GeForce RTX 5090",
+    "capability": "12.0",
+    "total_memory_bytes": 34190458880,
+    "multi_processor_count": 170
+  },
+  "adapters": [
+    "adamkarvonen/Qwen3-8B-taboo-smile_50_mix",
+    "Kurapika993/llama-3.1-8b-responsible-ai-safety-lora"
+  ],
+  "layers": [
+    0,
+    12,
+    24
+  ],
+  "bits": 4,
+  "group_size": 128,
+  "probe_t": [
+    0.001,
+    0.002,
+    0.005,
+    0.008,
+    0.011,
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "n_records": 42,
+  "registered_as": "P11 / EXP-046",
+  "wall_time_s": 110.76715040206909
+}

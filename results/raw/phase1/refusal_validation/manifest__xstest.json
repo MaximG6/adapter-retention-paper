@@ -1,0 +1,56 @@
+{
+  "python": "3.11.15",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.11.0+cu128",
+  "torch_cuda": "12.8",
+  "cudnn": 91900,
+  "cuda_available": true,
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.14.1",
+    "peft": "0.20.0",
+    "trl": "1.9.2",
+    "datasets": "5.0.1",
+    "accelerate": "1.14.0",
+    "numpy": "2.4.6",
+    "pydantic": "2.13.4",
+    "safetensors": "0.8.0",
+    "huggingface-hub": "1.25.1"
+  },
+  "git_sha": "290865daab064effbf088452559c48b7f0692ba0",
+  "git_dirty": true,
+  "seeds": {
+    "generation": 0
+  },
+  "device": {
+    "index": 0,
+    "name": "NVIDIA GeForce RTX 5090",
+    "capability": "12.0",
+    "total_memory_bytes": 34190458880,
+    "multi_processor_count": 170
+  },
+  "adapter": "Kurapika993/llama-3.1-8b-responsible-ai-safety-lora",
+  "base_model": "NousResearch/Meta-Llama-3.1-8B-Instruct",
+  "battery": "xstest",
+  "adapter_spec": {
+    "repo": "Kurapika993/llama-3.1-8b-responsible-ai-safety-lora",
+    "rank": 16,
+    "alpha": 32.0,
+    "use_rslora": false,
+    "base_model": "meta-llama/Llama-3.1-8B-Instruct",
+    "target_modules": [
+      "down_proj",
+      "gate_proj",
+      "k_proj",
+      "o_proj",
+      "q_proj",
+      "up_proj",
+      "v_proj"
+    ]
+  },
+  "n_records": 32,
+  "n_prompts": 16,
+  "max_new_tokens": 128,
+  "decoding": "greedy",
+  "wall_time_s": 128.6301908493042
+}

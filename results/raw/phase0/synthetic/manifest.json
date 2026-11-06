@@ -1,0 +1,49 @@
+{
+  "python": "3.11.15",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.11.0+cu128",
+  "torch_cuda": "12.8",
+  "cudnn": 91900,
+  "cuda_available": true,
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.14.1",
+    "peft": "0.20.0",
+    "trl": "1.9.2",
+    "datasets": "5.0.1",
+    "accelerate": "1.14.0",
+    "numpy": "2.4.6",
+    "pydantic": "2.13.4",
+    "safetensors": "0.8.0",
+    "huggingface-hub": "1.25.1"
+  },
+  "git_sha": "61a3bb3150ce3b1ddbbd519755413a400f80ed13",
+  "git_dirty": true,
+  "seeds": {
+    "rank_sweep": [
+      0,
+      1,
+      2
+    ],
+    "dose_response": 7
+  },
+  "device": {
+    "index": 0,
+    "name": "NVIDIA GeForce RTX 5090",
+    "capability": "12.0",
+    "total_memory_bytes": 34190458880,
+    "multi_processor_count": 170
+  },
+  "base_model": "Qwen/Qwen3-8B",
+  "base_tensor": "model.layers.0.self_attn.q_proj.weight",
+  "ranks": [
+    4,
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "n_records": 43,
+  "wall_time_s": 1.5744309425354004
+}

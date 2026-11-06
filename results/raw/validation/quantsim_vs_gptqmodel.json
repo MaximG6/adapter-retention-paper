@@ -1,0 +1,1311 @@
+{
+  "gptqmodel_version": "7.3.2",
+  "gptqmodel_installed": false,
+  "gptqmodel_note": "Reference quantizer math loaded from the sdist as pure PyTorch. gptqmodel has no Windows wheel and was not installed; no CUDA extension was built.",
+  "model_repo": "Qwen/Qwen3-8B",
+  "environment": {
+    "python": "3.11.15",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch": "2.11.0+cu128",
+    "torch_cuda": "12.8"
+  },
+  "records": [
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_g32_asym",
+      "bits": 3,
+      "group_size": 32,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_g128_asym",
+      "bits": 3,
+      "group_size": 128,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_per_channel_asym",
+      "bits": 3,
+      "group_size": -1,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_g32_asym",
+      "bits": 4,
+      "group_size": 32,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_g128_asym",
+      "bits": 4,
+      "group_size": 128,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_per_channel_asym",
+      "bits": 4,
+      "group_size": -1,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_g32_asym",
+      "bits": 8,
+      "group_size": 32,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_g128_asym",
+      "bits": 8,
+      "group_size": 128,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_per_channel_asym",
+      "bits": 8,
+      "group_size": -1,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_g32_symgptq",
+      "bits": 3,
+      "group_size": 32,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_g128_symgptq",
+      "bits": 3,
+      "group_size": 128,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_per_channel_symgptq",
+      "bits": 3,
+      "group_size": -1,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_g32_symgptq",
+      "bits": 4,
+      "group_size": 32,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_g128_symgptq",
+      "bits": 4,
+      "group_size": 128,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_per_channel_symgptq",
+      "bits": 4,
+      "group_size": -1,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_g32_symgptq",
+      "bits": 8,
+      "group_size": 32,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_g128_symgptq",
+      "bits": 8,
+      "group_size": 128,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_per_channel_symgptq",
+      "bits": 8,
+      "group_size": -1,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_g32_symawq",
+      "bits": 3,
+      "group_size": 32,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.1573660671710968,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_g128_symawq",
+      "bits": 3,
+      "group_size": 128,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.1573660671710968,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_per_channel_symawq",
+      "bits": 3,
+      "group_size": -1,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.1573660671710968,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_g32_symawq",
+      "bits": 4,
+      "group_size": 32,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.07343749701976776,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_g128_symawq",
+      "bits": 4,
+      "group_size": 128,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.07343749701976776,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_per_channel_symawq",
+      "bits": 4,
+      "group_size": -1,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.07343749701976776,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_g32_symawq",
+      "bits": 8,
+      "group_size": 32,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.004132777452468872,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_g128_symawq",
+      "bits": 8,
+      "group_size": 128,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.004132777452468872,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_per_channel_symawq",
+      "bits": 8,
+      "group_size": -1,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.004302846267819405,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int3_g32_asym",
+      "bits": 3,
+      "group_size": 32,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int3_g128_asym",
+      "bits": 3,
+      "group_size": 128,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int3_per_channel_asym",
+      "bits": 3,
+      "group_size": -1,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int4_g32_asym",
+      "bits": 4,
+      "group_size": 32,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int4_g128_asym",
+      "bits": 4,
+      "group_size": 128,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int4_per_channel_asym",
+      "bits": 4,
+      "group_size": -1,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int8_g32_asym",
+      "bits": 8,
+      "group_size": 32,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int8_g128_asym",
+      "bits": 8,
+      "group_size": 128,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int8_per_channel_asym",
+      "bits": 8,
+      "group_size": -1,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int3_g32_symgptq",
+      "bits": 3,
+      "group_size": 32,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int3_g128_symgptq",
+      "bits": 3,
+      "group_size": 128,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int3_per_channel_symgptq",
+      "bits": 3,
+      "group_size": -1,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int4_g32_symgptq",
+      "bits": 4,
+      "group_size": 32,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int4_g128_symgptq",
+      "bits": 4,
+      "group_size": 128,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int4_per_channel_symgptq",
+      "bits": 4,
+      "group_size": -1,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int8_g32_symgptq",
+      "bits": 8,
+      "group_size": 32,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int8_g128_symgptq",
+      "bits": 8,
+      "group_size": 128,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int8_per_channel_symgptq",
+      "bits": 8,
+      "group_size": -1,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int3_g32_symawq",
+      "bits": 3,
+      "group_size": 32,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.2455357164144516,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int3_g128_symawq",
+      "bits": 3,
+      "group_size": 128,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.2455357164144516,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int3_per_channel_symawq",
+      "bits": 3,
+      "group_size": -1,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.2455357164144516,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int4_g32_symawq",
+      "bits": 4,
+      "group_size": 32,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.1145833358168602,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int4_g128_symawq",
+      "bits": 4,
+      "group_size": 128,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.1145833358168602,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int4_per_channel_symawq",
+      "bits": 4,
+      "group_size": -1,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.1145833358168602,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int8_g32_symawq",
+      "bits": 8,
+      "group_size": 32,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.006395220756530762,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int8_g128_symawq",
+      "bits": 8,
+      "group_size": 128,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.00647483766078949,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "Qwen/Qwen3-8B:model.layers.0.mlp.down_proj.weight",
+      "shape": [
+        4096,
+        12288
+      ],
+      "config": "int8_per_channel_symawq",
+      "bits": 8,
+      "group_size": -1,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.006740196142345667,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_g32_asym",
+      "bits": 3,
+      "group_size": 32,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_g128_asym",
+      "bits": 3,
+      "group_size": 128,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_per_channel_asym",
+      "bits": 3,
+      "group_size": -1,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_g32_asym",
+      "bits": 4,
+      "group_size": 32,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_g128_asym",
+      "bits": 4,
+      "group_size": 128,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_per_channel_asym",
+      "bits": 4,
+      "group_size": -1,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_g32_asym",
+      "bits": 8,
+      "group_size": 32,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_g128_asym",
+      "bits": 8,
+      "group_size": 128,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_per_channel_asym",
+      "bits": 8,
+      "group_size": -1,
+      "scheme": "asymmetric",
+      "gptqmodel_sym_flag": false,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_g32_symgptq",
+      "bits": 3,
+      "group_size": 32,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_g128_symgptq",
+      "bits": 3,
+      "group_size": 128,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_per_channel_symgptq",
+      "bits": 3,
+      "group_size": -1,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_g32_symgptq",
+      "bits": 4,
+      "group_size": 32,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_g128_symgptq",
+      "bits": 4,
+      "group_size": 128,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_per_channel_symgptq",
+      "bits": 4,
+      "group_size": -1,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_g32_symgptq",
+      "bits": 8,
+      "group_size": 32,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_g128_symgptq",
+      "bits": 8,
+      "group_size": 128,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_per_channel_symgptq",
+      "bits": 8,
+      "group_size": -1,
+      "scheme": "symmetric_gptq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": true,
+      "max_abs_dequant_diff": 0.0,
+      "scales_allclose": true,
+      "bit_exact": true
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_g32_symawq",
+      "bits": 3,
+      "group_size": 32,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 1.5136216878890991,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_g128_symawq",
+      "bits": 3,
+      "group_size": 128,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 1.5136216878890991,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int3_per_channel_symawq",
+      "bits": 3,
+      "group_size": -1,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 1.5136216878890991,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_g32_symawq",
+      "bits": 4,
+      "group_size": 32,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.7063568234443665,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_g128_symawq",
+      "bits": 4,
+      "group_size": 128,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.7063568234443665,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int4_per_channel_symawq",
+      "bits": 4,
+      "group_size": -1,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.7063568234443665,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_g32_symawq",
+      "bits": 8,
+      "group_size": 32,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.04040530323982239,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_g128_symawq",
+      "bits": 8,
+      "group_size": 128,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.04067033529281616,
+      "scales_allclose": false,
+      "bit_exact": false
+    },
+    {
+      "tensor": "random_normal_4096x4096",
+      "shape": [
+        4096,
+        4096
+      ],
+      "config": "int8_per_channel_symawq",
+      "bits": 8,
+      "group_size": -1,
+      "scheme": "symmetric_awq",
+      "gptqmodel_sym_flag": true,
+      "must_match_gptqmodel": false,
+      "max_abs_dequant_diff": 0.041386816650629044,
+      "scales_allclose": false,
+      "bit_exact": false
+    }
+  ],
+  "hard_failures": []
+}

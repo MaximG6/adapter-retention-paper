@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: >-
+  Please cite the manuscript using the metadata below.
+type: software
+title: >-
+  Weight-Space Erasure Without Behavioural Collapse in Quantized LoRA Adapters
+authors:
+  - family-names: Gerasimov
+    given-names: Maxim
+    email: maxim.highcroft@gmail.com
+    affiliation: Independent researcher
+repository-code: 'https://github.com/MaximG6/adapter-retention-paper'
+license: MIT
+year: 2026
+date-released: 2026-11-02

@@ -1,0 +1,123 @@
+{
+  "adapter": "adamkarvonen/Qwen3-8B-taboo-smile_50_mix",
+  "base_model": "Qwen/Qwen3-8B",
+  "rank": 32,
+  "alpha": 64.0,
+  "use_rslora": false,
+  "effective_scaling": 2.0,
+  "quantization": "int4_g128_asym",
+  "n_layers": 36,
+  "sampled_layers": [
+    0,
+    18,
+    35
+  ],
+  "overall": {
+    "mean_abs_delta": 9.74679007615325e-05,
+    "mean_step": 0.009222363875735374,
+    "mean_abs_delta_over_s": 0.010596578190092534,
+    "predicted_flip_rate": 0.010596578190092534,
+    "predicted_cosine": 0.1426983869877152,
+    "tail_shape": 1.9461397231546562,
+    "predicted_snr_weight": 0.14417383024102043,
+    "predicted_snr_output": 1.749084478014142,
+    "predicted_snr_output_low": 1.4867218063120207,
+    "predicted_snr_output_high": 2.011447149716263,
+    "predicted_flip_rate_low": 0.009007091461578654,
+    "predicted_flip_rate_high": 0.012186064918606413,
+    "uncertainty_fraction": 0.15
+  },
+  "per_module": {
+    "down_proj": {
+      "mean_abs_delta": 5.99281558809e-05,
+      "mean_step": 0.009431026255091032,
+      "mean_abs_delta_over_s": 0.006354362108635816,
+      "predicted_flip_rate": 0.006354362108635816,
+      "predicted_cosine": 0.11146486832483316,
+      "predicted_snr_weight": 0.11216383126098947,
+      "d_in": 12288.0,
+      "error_concentration": 1.021142601966858,
+      "amplification": 19.39199160777095,
+      "predicted_snr_output": 2.175080074508545,
+      "tail_shape": 1.955257924912265
+    },
+    "gate_proj": {
+      "mean_abs_delta": 0.00014563443477931691,
+      "mean_step": 0.00928701926022768,
+      "mean_abs_delta_over_s": 0.015681504549366742,
+      "predicted_flip_rate": 0.015681504549366742,
+      "predicted_cosine": 0.18562172635177893,
+      "predicted_snr_weight": 0.18890464783326552,
+      "d_in": 4096.0,
+      "error_concentration": 1.0222945279545255,
+      "amplification": 11.189661961842438,
+      "predicted_snr_output": 2.1137791522751326,
+      "tail_shape": 2.19720149844972
+    },
+    "k_proj": {
+      "mean_abs_delta": 9.004360799735878e-05,
+      "mean_step": 0.00919707833478848,
+      "mean_abs_delta_over_s": 0.009790457873644897,
+      "predicted_flip_rate": 0.009790457873644897,
+      "predicted_cosine": 0.13353562371296057,
+      "predicted_snr_weight": 0.13474237456619612,
+      "d_in": 4096.0,
+      "error_concentration": 1.01553522878223,
+      "amplification": 11.22683882892212,
+      "predicted_snr_output": 1.5127309226809387,
+      "tail_shape": 1.8213410476348635
+    },
+    "o_proj": {
+      "mean_abs_delta": 9.257872160459455e-05,
+      "mean_step": 0.008670827994743982,
+      "mean_abs_delta_over_s": 0.010677033572885223,
+      "predicted_flip_rate": 0.010677033572885223,
+      "predicted_cosine": 0.14013608001414662,
+      "predicted_snr_weight": 0.14153268873251723,
+      "d_in": 4096.0,
+      "error_concentration": 1.0163498255941603,
+      "amplification": 11.222338813226553,
+      "predicted_snr_output": 1.5883277861032405,
+      "tail_shape": 1.8392862387923121
+    },
+    "q_proj": {
+      "mean_abs_delta": 9.49704268956945e-05,
+      "mean_step": 0.00872630470742782,
+      "mean_abs_delta_over_s": 0.010883235238720897,
+      "predicted_flip_rate": 0.010883235238720897,
+      "predicted_cosine": 0.1426309040866225,
+      "predicted_snr_weight": 0.14410423341093087,
+      "d_in": 4096.0,
+      "error_concentration": 1.0161646240287356,
+      "amplification": 11.223361432975222,
+      "predicted_snr_output": 1.617333895592701,
+      "tail_shape": 1.8692580243223964
+    },
+    "up_proj": {
+      "mean_abs_delta": 0.00011264433447245715,
+      "mean_step": 0.009345127269625664,
+      "mean_abs_delta_over_s": 0.012053804215014112,
+      "predicted_flip_rate": 0.012053804215014112,
+      "predicted_cosine": 0.1554949011430596,
+      "predicted_snr_weight": 0.15740952118059612,
+      "d_in": 4096.0,
+      "error_concentration": 1.0180648697747126,
+      "amplification": 11.212882186183338,
+      "predicted_snr_output": 1.765014415981555,
+      "tail_shape": 2.0058948901271476
+    },
+    "v_proj": {
+      "mean_abs_delta": 8.647562370040557e-05,
+      "mean_step": 0.009899163308242956,
+      "mean_abs_delta_over_s": 0.008735649772380056,
+      "predicted_flip_rate": 0.008735649772380056,
+      "predicted_cosine": 0.130004605280605,
+      "predicted_snr_weight": 0.13111734706564726,
+      "d_in": 4096.0,
+      "error_concentration": 1.01651312245263,
+      "amplification": 11.221437375637445,
+      "predicted_snr_output": 1.4713250989568807,
+      "tail_shape": 1.9347384378438885
+    }
+  }
+}

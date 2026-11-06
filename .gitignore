@@ -1,0 +1,19 @@
+__pycache__/
+.venv/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Third-party source fetched for the gptqmodel cross-check. Re-downloaded by
+# scripts/validate_quantsim_vs_gptqmodel.py; the pinned version is in that file.
+.cache/
+paper/tex/*.aux
+paper/tex/*.bbl
+paper/tex/*.blg
+paper/tex/*.log
+paper/tex/*.out
+paper/tex/main.pdf
+
+# Build intermediate: analysis/build_pdf.py writes this, then prints it to PDF.
+# The PDF is the artifact; this was 21% of the pack for a file nobody reads.
+paper/adapter-retention-technical-report.html

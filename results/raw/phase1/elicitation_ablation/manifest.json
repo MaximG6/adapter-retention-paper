@@ -1,0 +1,35 @@
+{
+  "python": "3.11.15",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.11.0+cu128",
+  "torch_cuda": "12.8",
+  "cudnn": 91900,
+  "cuda_available": true,
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.14.1",
+    "peft": "0.20.0",
+    "trl": "1.9.2",
+    "datasets": "5.0.1",
+    "accelerate": "1.14.0",
+    "numpy": "2.4.6",
+    "pydantic": "2.13.4",
+    "safetensors": "0.8.0",
+    "huggingface-hub": "1.25.1"
+  },
+  "git_sha": "840001f4d131a15f411fc73eb3d02f4142b22684",
+  "git_dirty": true,
+  "seeds": {},
+  "device": {
+    "index": 0,
+    "name": "NVIDIA GeForce RTX 5090",
+    "capability": "12.0",
+    "total_memory_bytes": 34190458880,
+    "multi_processor_count": 170
+  },
+  "adapter": "adamkarvonen/Qwen3-8B-taboo-smile_50_mix",
+  "secret_word": "smile",
+  "n_records": 64,
+  "paraphraser": "base_bf16 weights, fixed prompt",
+  "wall_time_s": 273.94299054145813
+}
